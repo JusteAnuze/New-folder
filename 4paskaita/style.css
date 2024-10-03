@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .black-header {
+    background-color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration-color: white;
+    list-style: none;
+  }
+  
+  a {
+    color:white;
+    margin: 16px;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  a:hover {
+    color: rgb(157, 26, 26);
+  }
+  
+  .hero {
+    background-image: url("https://th.bing.com/th/id/OIP.04QA9iiHFsZaw4WcNKH2aAHaEW?w=314&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    height: 300px;
+    width: 100%;
+    margin: 40px, 70px, 40px, 100px;
+    padding: 100pX, 0;
+    color: rgb(5, 91, 5);
+  }
+  
+  .discount-card {
+    background-color: rgba(164, 244, 167, 0.5);
+    width: 300px;
+    padding: 16px, 16px, 16px, 16px;
+    margin: 16px, 16px, 16px, 16px;
+    height: 50%;
+    border-radius: 5px;
+  }
+  .form-item {
+    background-color: rgba(53, 185, 57, 0.5);
+      color: rgb(245, 238, 238);
+      padding: 5pt, 12pt;
+      width:800px;
+      text-align:center;
+      border-radius: 5px;
+  }
+   
+  .gallery {
+    background-color: rgba(164, 244, 167, 0.5);
+    border-radius: 5px;
+    height: 600px;
+    width: 100%;
+    margin: 40px, 70px, 40px, 100px;
+    padding: 100pX, 0;
+    color: rgb(5, 91, 5);
+  }
+  h1 {
+    color: rgb(11, 159, 112);
+  }
+  p {
+    color: rgb(17, 110, 18);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    
+  }
+  li {
+    color: rgb(6, 6, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: underline;
+    
+  }
+  .discount-item1 {
+    
+    background-color: rgb(180, 244, 201);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    margin: 40px, 70px, 40px, 100px;
+    padding: 100pX, 0;
+    color: rgb(5, 91, 5);
+  }
+  .discount-item2{
+    background-color: rgb(180, 244, 201);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    height: 600px;
+    width: 100%;
+    margin: 40px, 70px, 40px, 100px;
+    padding: 100pX, 0;
+    color: rgb(5, 91, 5);
+
+  }
+  .discount-item3{
+    background-color: rgb(173, 251, 199);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    margin: 40px, 70px, 40px, 100px;
+    padding: 100pX, 0;
+    color: rgb(5, 91, 5);
+  }
+    .discount-item4 {
+      background-color: rgb(173, 251, 199);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      text-align: center;
+      height: 400px;
+      width: 100%;
+      margin: 40px, 70px, 40px, 100px;
+      padding: 100pX, 0;
+      color: rgb(5, 91, 5);
+  }
+  .gallery-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightblue;
+    height: 400px;
+    width: 90%;
+    padding: 12px;
+    margin: 6px;
+}
+
+.flex-item {
+    background-color: rgb(174, 239, 235);
+    padding: 20px;
+    width: 200px ;
+    height: 300px;
+}
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+
+  right: 40px;
+  bottom: 40px;
+
+  background-color: #0c9;
+  color: #fff;
+  border-radius: 50px;
+  box-shadow: 2px 2px 3px #999;
+
+  /* Eisime po keliu paskaitu!!! Centravimas x ir y asyje */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  text-decoration: none;
+}
+.header {
+  background-color: black;
+  padding: 16px;
+  text-align: center;
+}
+.header-top {
+  background-color: rgb(171, 240, 191);
+  padding: 16px;
+  text-align: center;
+}
+
+.header a {
+  color: white;
+  margin: 0 16px;
+}
+
+a {
+  color: red;
+}
+
+#section1 {
+  background-color: yellow;
+  /* vh - view height */
+  height: 100vh;
+
+  /* Eisime po keliu paskaitu!!! */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section2 {
+  background-color: green;
+  height: 100vh;
+
+  /* Eisime po keliu paskaitu!!! */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section3 {
+  background-color: red;
+  height: 100vh;
+
+  /* Eisime po keliu paskaitu!!! Centravimas x ir y asyje */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

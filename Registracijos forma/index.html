@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+  <head>
+    <title>Atsiliepimų forma</title>
+    <style>
+          body {
+          background-image: url("https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?cs=srgb&dl=pexels-rovenimagescom-949587.jpg&fm=jpg");
+          background-color: #dccccc;
+          }
+         .form-item {
+          color: rgb(245, 238, 238);
+          padding: 5pt;
+          text-align:center;
+           }
+         .submit:hover {
+          background-color: rgb(214, 175, 66);
+          padding: 5pt;
+          text-align:center;
+           }
+         .submit {
+          color: rgb(57, 56, 53);
+          padding: 5pt;
+          text-align:center;
+           }
+         h1 {  
+          color: rgb(218, 132, 61);   
+          text-decoration: underline;
+          text-align:center;
+         } 
+          h1, div {
+         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+         text-align:center;        
+         }
+         input[type=email], select {
+           width: 100%;
+           padding: 12px 20px;
+           margin: 8px 0;
+           display: inline-block;
+           border: 1px solid #ccc;
+           border-radius: 4px;
+           box-sizing: border-box; 
+         }
+         input[type=text], select {
+           width: 100%;
+           padding: 12px 20px;
+           margin: 8px 0;
+           display: inline-block;
+           border: 1px solid #ccc;
+           border-radius: 4px;
+           box-sizing: border-box; 
+         }
+         textarea[name=comment], select {
+           width: 100%;
+           padding: 12px 20px;
+           margin: 8px 0;
+           display: inline-block;
+           border: 1px solid #ccc;
+           border-radius: 4px;
+           box-sizing: border-box; 
+         }
+         
+        
+         
+    </style>   
+  </head>   
+  <body>
+    <h1> Atsiliepimų forma </h1>
+     <form action="submit-form" method="POST">
+     <div class="form-item">
+     
+     <input type="text" id="name" placeholder="Vardas" required>
+     </div>
+     <div class="form-item">
+     
+     <input type="email" id="email"  placeholder="El. paštas" required>
+     </div>
+     <div class="form-item">
+     <label for="rating"> Įvertinimas </label>
+     <select name="rating" id="rating">
+        <option value="Labai gerai">Labai gerai</option>
+        <option value="Gerai">Gerai</option>
+        <option value="Vidutiniškai">Vidutiniškai</option>
+        <option value="Blogai">Blogai</option>
+        <option value="Labai blogai">Labai blogai</option>
+     </select>
+     </div>
+     <div class="form-item">
+     <label for="comment">Komentaras</label>
+     <textarea name="comment" id="comment"rows="3" placeholder="Trumpai parašykite savo nuomonę"> </textarea>
+     </div>
+     <div class="submit">
+         <button type="submit">Siųsti</button>
+     </div>
+     </form>
+
+  </body>
+ </html>
+
+
